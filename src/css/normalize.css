@@ -1,0 +1,57 @@
+@media only screen and (max-width: 480px) {
+	html {
+		font-size: 100%;
+	}
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+*:not(button) {
+	outline: none;
+}
+
+html {
+	height: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	height: 100%;
+	color: #333;
+	margin: 0;
+	font-family: 'Work Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+strong,
+b {
+	font-weight: 600;
+}
+
+div[role='group'][tabindex] {
+	display: block;
+	min-height: 100vh;
+	position: relative;
+}
+
+input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+button {
+	background: none;
+	border: none;
+	outline: none;
+}
+
+button:focus-visible {
+	outline: 1px solid #ffc032;
+}
