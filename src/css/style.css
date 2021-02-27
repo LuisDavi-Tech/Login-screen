@@ -1,16 +1,15 @@
-@keyframes move {
-    from {
+@keyframes move{
+    from{
         opacity: 0;
         transform: translateX(-35%);
-    }
-
-    to {
+    }to{
         opacity: 1;
         transform: translateX(0%);
     }
 }
 
-.Email {
+
+.Email{
     border: 2px solid #667fb6;
     border-radius: 15px;
     height: 30px;
@@ -18,22 +17,28 @@
     margin-bottom: 5px;
     animation: move;
     animation-duration: 700ms;
+    text-align: center;
+    font-size: 15px;
 }
 
-input:active, input:focus {
-    outline: none;
+input:active,
+input:focus {
+  outline: none;
 }
-
-.Senha {
+.Senha{
     border: 2px solid #667fb6;
     border-radius: 15px;
     height: 30px;
     width: 65%;
     margin-bottom: 10px;
     animation: move 700ms;
+    text-align: center;
+}
+::-webkit-input-placeholder {
+    text-align: center;
 }
 
-.main {
+.main{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +46,7 @@ input:active, input:focus {
     background-color: #933da6;
 }
 
-.indexDiv {
+.indexDiv{
     top: 50%;
     border: 2px solid #ffffff;
     background-color: #ffffff;
@@ -54,32 +59,17 @@ input:active, input:focus {
     box-shadow: -1px -1px 17px 5px rgba(0,0,0,0.34);
 }
 
-::-webkit-input-placeholder {
-    text-align: center;
-}
-
-:-moz-placeholder {
-    text-align: center;
-}
-
-::-moz-placeholder {
-    text-align: center;
-}
-
-:-ms-input-placeholder {
-    text-align: center;
-}
-
 .Form {
     width: 100%;
     display: flex;
+    text-align: center;
     align-items: center;
     flex-direction: column;
+    
 }
-
-.Entrar {
+.Entrar{
     border: 2px solid #667fb6;
-    border-radius: 10px;
+    border-radius: 15px;
     color: #ffffff;
     background-color: #667fb6;
     height: 35px;
@@ -88,7 +78,7 @@ input:active, input:focus {
     animation-duration: 700ms;
 }
 
-.register {
+.register{
     font-size: 12px;
     animation: move;
     animation-duration: 700ms;
