@@ -83,6 +83,7 @@ input:active, input:focus {
     color: #ffffff;
     background-color: #667fb6;
     height: 35px;
+    width: 70px;
     animation: move;
     animation-duration: 700ms;
 }
