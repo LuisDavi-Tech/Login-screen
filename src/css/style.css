@@ -67,6 +67,7 @@ input:focus {
     border-radius: 10px;
     color: #ffffff;
     background-color: #667fb6;
+    width: 50px
     height: 35px;
     animation: move;
     animation-duration: 700ms;
