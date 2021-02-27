@@ -63,12 +63,12 @@ input:focus {
     
 }
 .Entrar{
-    border: 2px solid #667fb6;
-    border-radius: 10px;
+     border: 2px solid #667fb6;
+    border-radius: 15px;
     color: #ffffff;
     background-color: #667fb6;
-    width: 50px
     height: 35px;
+    width: 70px;
     animation: move;
     animation-duration: 700ms;
 }
